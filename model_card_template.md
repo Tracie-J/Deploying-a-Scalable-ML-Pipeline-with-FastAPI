@@ -3,7 +3,7 @@
 For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-This project uses a Random Forest Clssifier from the scikit-learn library to predict if an individual's
+This project uses a Random Forest Classifier from the scikit-learn library to predict if an individual's
 annual income exceeds $50k based on demographic and employment data from the Census dataset.
 
 ## Intended Use
@@ -17,13 +17,13 @@ data such as age, education, marital status, race, sex, and occupation among oth
 characteristics were used to predict if an individual's annual income exceeds $50k.
 
 ## Evaluation Data
-The model was evaluated using a test set created with a 20/80 train/test split. The test data test data
+The model was evaluated using a test set created with a 80/20 train/test split. The test data
 wasn't used during training and was used to measure the model's performance.
 
 ## Metrics
 The model was evaluated using precision, recall, and F1 score. On the test dataset, it achieved a
 precision score of 0.7410, a recall of 0.6321, and an F1 score of 0.6822. These metrics indicate the
-model is correctly classifying if an individual's annual income exceeds $50,000.
+model's performance in classifying if an individual's annual income exceeds $50,000.
 
 ## Ethical Considerations
 The Census income dataset contains demographic information such as age, race, sex, and native country. As
